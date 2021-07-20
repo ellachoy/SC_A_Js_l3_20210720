@@ -5,27 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/lev3_1.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <form action="">
         <fieldset>
             <h2>Fonts Generator</h2>
             <div>
-                <input type="range" name="fontsize" id="fontsize" min="0" max="100" step="10"
-                onchange="changeFontSize()">
+                <input type="range" name="fontsize" id="fontsize" min="12" max="100" step="10"
+                onchange="changeFontsSize() ">
                 <label for="fontsize">Font-size</label>
 
-                <select name="fontfamily" id="fontfamily" onchange="changeFontSize()>
-                  <option value="'Bodoni Moda', serif ">'Bodoni Moda', serif </option>
-                  <option value="'Open Sans', sans-serif">'Open Sans', sans-serif</option>
-                  <option value="'Roboto', sans-serif">'Roboto', sans-serif</option>
-                  <option value="'Yusei Magic', sans-serif">'Yusei Magic', sans-serif</option>
+                <select name="fontfamily" id="fontfamily" onchange="changeFontsSize()">
+
+                    <option value="'Bodoni Moda', serif ">'Bodoni Moda', serif </option>
+                    <option value="'Open Sans', sans-serif">'Open Sans', sans-serif</option>
+                    <option value="'Roboto', sans-serif">'Roboto', sans-serif</option>
+                    <option value="'Yusei Magic', sans-serif">'Yusei Magic', sans-serif</option>
                 </select>
 
-                <input type="text" name="texttext" id="texttext" placeholder="enter your text here" onchange="changetext()">
+                <input type="text" name="texttext" id="texttext" placeholder="enter your text here" onchange="changeFontsSize()">
             </div>
-            <h1 id="results">text</h1>
+            <h1 id="results">enter your text</h1>
             
         </fieldset>
     </form>
